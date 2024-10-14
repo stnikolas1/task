@@ -1,0 +1,14 @@
+my_dict={'Георгий':2002,'Николай':2004,'Анастасия':2003}
+print(my_dict)
+print(my_dict['Георгий'])
+print(my_dict.get('Станислав'))
+my_dict.update({'Дмитрий':1999,'Екатерина':1998})
+a=my_dict.pop('Дмитрий')
+print(a)
+print(my_dict)
+my_set={1,2,3,4,5,1,2,3,4,6,7,6}
+print(my_set)
+my_set.add('world')
+my_set.add(False)
+my_set.discard(False)
+print(my_set)
