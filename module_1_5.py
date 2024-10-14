@@ -5,7 +5,7 @@ print(immutable_var)
 immutable_var[0][0]='by-by'
 print(immutable_var)
 #Кортеж нельзя изменить, потому что он является неизменяемым списком. Но если в кортеже есть изменяемый список, то его, как раз можно 
-изменить
+#изменить
 mutable_list=[1,47,'Down',False,6.0]
 mutable_list[3]=True
 print(mutable_list)
