@@ -2,7 +2,7 @@ numbers = []
 primes = []
 not_primes =[]
 n = 0
-print('Заполните список через Enter до 28, для завершения заполнения напишите: stop')
+print('Заполните список через Enter, для завершения заполнения напишите: stop')
 while 1 > 0:
     n = input()
     if n != "stop":
